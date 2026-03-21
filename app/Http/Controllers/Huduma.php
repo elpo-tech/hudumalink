@@ -9,7 +9,7 @@ class Huduma extends Controller
     public function dash()
     {
 
-        return view('dashb');
+        return view('dashboard.dashb');
     }
 
 

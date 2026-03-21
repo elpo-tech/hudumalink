@@ -16492,7 +16492,7 @@ fieldset:disabled .btn {
 
 .text-muted, .preview-list .preview-item .preview-item-content p .content-category {
   --bs-text-opacity: 1;
-  color: #b1b0b0 !important;
+  color: #000 !important;
 }
 
 .text-black-50 {
