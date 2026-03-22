@@ -4,11 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Irecods extends Model
+class Ulogs extends Model
 {
-    protected $fillable = [
-        'iname',
-        'hosname',
+    / protected $fillable = [
+        'uid',
+        'uname',
+        'service',
+        'browser',
+        'plat',
+        'pip',
         'foth1',
         'foth2',
         'foth3',
@@ -18,6 +22,5 @@ class Irecods extends Model
         'foth7',
         'foth8',
         'foth9',
-        'foth10',
-    ];
+        'foth10',/
 }

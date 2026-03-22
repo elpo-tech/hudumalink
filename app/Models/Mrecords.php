@@ -4,11 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Irecods extends Model
+class Mrecords extends Model
 {
-    protected $fillable = [
-        'iname',
-        'hosname',
+ protected $fillable = [
+        'signs',
+        'lab results',
+        'diagnoses',
+        'imaging',
+        'medication',
         'foth1',
         'foth2',
         'foth3',
@@ -19,5 +22,5 @@ class Irecods extends Model
         'foth8',
         'foth9',
         'foth10',
-    ];
+    ];   
 }
