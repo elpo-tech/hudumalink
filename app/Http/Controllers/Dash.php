@@ -25,4 +25,10 @@ class Dash extends Controller
 
         return view('dashboard.patdetail');
     }
+
+    public function patr()
+    {
+
+        return view('dashboard.patrecord');
+    }
 }
