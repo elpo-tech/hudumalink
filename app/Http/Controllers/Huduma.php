@@ -6,16 +6,16 @@ use Illuminate\Http\Request;
 
 class Huduma extends Controller
 {
-    public function dash()
+    public function login()
     {
 
-        return view('dashboard.dashb');
+        return view('login');
     }
 
 
-    public function hey()
+    public function sign()
     {
 
-        return view('welcome');
+        return view('sign');
     }
 }
