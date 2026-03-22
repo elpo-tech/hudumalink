@@ -25,11 +25,11 @@
                 <div class="row flex-grow">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center">
                         <div class="auth-form-transparent text-left p-3">
-                            <div class="brand-logo">
-                                <img src="/assets/images/logo-dark.svg" alt="logo">
-                            </div>
+                            <div class="text-center">
+                                <img src="/assets/images/logoT.png" alt="logo" width="70%">
+                            </div><br>
                             <h4>Welcome back!</h4>
-                            <h6 class="font-weight-light">Happy to see you again!</h6>
+
                             <form class="pt-3">
                                 <div class="form-group">
                                     <label for="exampleInputEmail">Username</label>
