@@ -72,7 +72,7 @@
             <div class="collapse" id="set">
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="#"> General Settings </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> Permissions </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> Users </a></li>
                     <li class="nav-item"> <a class="nav-link" href="#"> System Logs </a></li>
 
                 </ul>
