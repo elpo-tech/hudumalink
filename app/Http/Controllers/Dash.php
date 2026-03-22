@@ -11,4 +11,18 @@ class Dash extends Controller
 
         return view('dashboard.dashb');
     }
+
+
+    public function pro()
+    {
+
+        return view('dashboard.profile');
+    }
+
+
+    public function pat()
+    {
+
+        return view('dashboard.patdetail');
+    }
 }

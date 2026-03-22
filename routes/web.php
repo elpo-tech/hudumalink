@@ -10,3 +10,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [Huduma::class, 'login'])->name('login');
 Route::get('/sign_up', [Huduma::class, 'sign'])->name('sign');
 Route::get('/dashboard', [Dash::class, 'dash'])->name('dash');
+Route::get('/profile', [Dash::class, 'pro'])->name('profile');
+Route::get('/patient_details', [Dash::class, 'pat'])->name('profile');

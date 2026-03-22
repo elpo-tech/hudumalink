@@ -25,10 +25,10 @@
                 <div class="row w-100 mx-0">
                     <div class="col-lg-4 mx-auto">
                         <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-                            <div class="brand-logo">
-                                <img src="/assets/images/logo-dark.svg" alt="logo">
+                            <div class="text-center">
+                                <img src="/assets/images/logoT.png" alt="logo" width="70%">
                             </div>
-                            <h4>New here?</h4>
+                            <br>
                             <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
                             <form class="pt-3">
                                 <div class="form-group">
@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="/assets/index.html">SIGN UP</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="{{url('/')}}">SIGN UP</a>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     Already have an account? <a href="{{url('/')}}" class="text-primary">Login</a>

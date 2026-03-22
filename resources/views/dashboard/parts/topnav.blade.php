@@ -4,8 +4,8 @@
             <span class="mdi mdi-menu"></span>
         </button>
         <div class="navbar-brand-wrapper">
-            <a class="navbar-brand brand-logo" href="#"><img src="/assets/images/logo.svg" alt="logo" /></a>
-            <a class="navbar-brand brand-logo-mini" href="#"><img src="/assets/images/logo-mini.svg" alt="logo" /></a>
+            <a class="navbar-brand brand-logo" href="#"><img src="/assets/images/logoT.png" alt="logo" width="40%" /></a>
+            <a class="navbar-brand brand-logo-mini" href="#"><img src="/assets/images/favicon.png" alt="logo" /></a>
         </div>
         <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1"> Welcome back, Edward Ng'ang'a</h4>
         <ul class="navbar-nav navbar-nav-right">
@@ -137,9 +137,12 @@
                         <i class="mdi mdi-account text-primary"></i>
                         Profile
                     </a>
+
                     <a class="dropdown-item">
-                        <i class="mdi mdi-logout text-primary"></i>
-                        Logout
+                        <a class="dropdown-item" href="{{url('/')}}">
+                            <i class="mdi mdi-logout text-primary"></i>
+                            Logout
+                        </a>
                     </a>
                 </div>
             </li>

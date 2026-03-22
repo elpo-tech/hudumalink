@@ -25,11 +25,11 @@
                 <div class="row flex-grow">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center">
                         <div class="auth-form-transparent text-left p-3">
-                            <div class="brand-logo">
-                                <img src="/assets/images/logo-dark.svg" alt="logo">
-                            </div>
+                            <div class="text-center">
+                                <img src="/assets/images/logoT.png" alt="logo" width="70%">
+                            </div><br>
                             <h4>Welcome back!</h4>
-                            <h6 class="font-weight-light">Happy to see you again!</h6>
+
                             <form class="pt-3">
                                 <div class="form-group">
                                     <label for="exampleInputEmail">Username</label>
@@ -63,7 +63,7 @@
                                     <a href="#" class="auth-link text-black">Forgot password?</a>
                                 </div>
                                 <div class="my-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="/assets/index.html">LOGIN</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="{{url('/dashboard')}}">LOGIN</a>
                                 </div>
 
                                 <div class="text-center mt-4 font-weight-light">
@@ -73,7 +73,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6 login-half-bg d-none d-lg-flex flex-row">
-                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2021 All rights reserved.</p>
+                        <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy;  <script>
+                         document.write(new Date().getFullYear());
+                     </script> All rights reserved.</p>
                     </div>
                 </div>
             </div>
