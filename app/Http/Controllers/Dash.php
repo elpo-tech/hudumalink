@@ -9,6 +9,13 @@ class Dash extends Controller
     public function dash()
     {
 
-        return view('dashboard.dashb');
+        return view('dashboard.temp');
+    }
+
+
+    public function pro()
+    {
+
+        return view('dashboard.profile');
     }
 }
