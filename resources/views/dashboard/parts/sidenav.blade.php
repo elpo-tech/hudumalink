@@ -28,36 +28,36 @@
             <div class="collapse" id="ui-pat">
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="{{url('/patient_details')}}">Patient Details</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Patient Records</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{url('/patient_records')}}">Patient Records</a></li>
                 </ul>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/hospitals')}}">
                 <i class="mdi mdi-hospital-building menu-icon"></i>
                 <span class="menu-title">Hospitals</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/services')}}">
                 <i class="mdi mdi-sitemap menu-icon"></i>
                 <span class="menu-title">Services</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/insurance')}}">
                 <i class="mdi mdi-chart-pie menu-icon"></i>
                 <span class="menu-title">Insurances</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/admissions')}}">
                 <i class="mdi mdi-grid-large menu-icon"></i>
                 <span class="menu-title">Admissions</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/approvals')}}">
                 <i class="mdi mdi-file-check menu-icon"></i>
                 <span class="menu-title">Pending Approvals</span>
             </a>
@@ -71,9 +71,9 @@
             </a>
             <div class="collapse" id="set">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="#"> General Settings </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> Users </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> System Logs </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{url('/general_settings')}}"> General Settings </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{url('/users')}}"> Users </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{url('/system_logs')}}"> System Logs </a></li>
 
                 </ul>
             </div>
