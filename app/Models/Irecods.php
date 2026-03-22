@@ -9,7 +9,6 @@ class Irecods extends Model
     protected $fillable = [
         'iname',
         'hosname',
-
         'foth1',
         'foth2',
         'foth3',
