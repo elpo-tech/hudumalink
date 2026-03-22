@@ -12,7 +12,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/profile')}}">
                 <i class="mdi mdi-account menu-icon"></i>
                 <span class="menu-title">Profile</span>
 
@@ -27,7 +27,7 @@
             </a>
             <div class="collapse" id="ui-pat">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="#">Patient Details</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{url('/patient_details')}}">Patient Details</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Patient Records</a></li>
                 </ul>
             </div>

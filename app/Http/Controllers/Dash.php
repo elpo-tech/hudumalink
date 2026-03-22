@@ -9,7 +9,7 @@ class Dash extends Controller
     public function dash()
     {
 
-        return view('dashboard.temp');
+        return view('dashboard.dashb');
     }
 
 
@@ -17,5 +17,12 @@ class Dash extends Controller
     {
 
         return view('dashboard.profile');
+    }
+
+
+    public function pat()
+    {
+
+        return view('dashboard.patdetail');
     }
 }
