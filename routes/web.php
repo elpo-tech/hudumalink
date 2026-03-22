@@ -20,4 +20,4 @@ Route::get('/admissions', [Dash::class, 'admit'])->name('admission');
 Route::get('/approvals', [Dash::class, 'app'])->name('approvals');
 Route::get('/general_settings', [Dash::class, 'gen'])->name('general');
 Route::get('/users', [Dash::class, 'user'])->name('users');
-Route::get('/system_logs', [Dash::class, 'logs'])->name('system_logs');
+Route::get('/system_logs', [Dash::class, 'log'])->name('system_logs');
