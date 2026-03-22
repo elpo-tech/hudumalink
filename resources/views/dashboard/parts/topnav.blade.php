@@ -137,9 +137,12 @@
                         <i class="mdi mdi-account text-primary"></i>
                         Profile
                     </a>
+                    
                     <a class="dropdown-item">
-                        <i class="mdi mdi-logout text-primary"></i>
-                        Logout
+                        <a class="dropdown-item" href="{{url('/')}}">
+                            <i class="mdi mdi-logout text-primary"></i>
+                            Logout
+                        </a>
                     </a>
                 </div>
             </li>

@@ -80,7 +80,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{url('/')}}">
                 <i class="mdi mdi-logout menu-icon"></i>
                 <span class="menu-title">Logout</span>
             </a>

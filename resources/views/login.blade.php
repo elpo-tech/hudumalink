@@ -63,7 +63,7 @@
                                     <a href="#" class="auth-link text-black">Forgot password?</a>
                                 </div>
                                 <div class="my-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="/assets/index.html">LOGIN</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="{{url('/dashboard')}}">LOGIN</a>
                                 </div>
 
                                 <div class="text-center mt-4 font-weight-light">

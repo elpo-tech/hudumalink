@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="/assets/index.html">SIGN UP</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="{{url('/')}}">SIGN UP</a>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     Already have an account? <a href="{{url('/')}}" class="text-primary">Login</a>
